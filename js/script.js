@@ -24,12 +24,22 @@ function toggleCartModal() {
 }
 
 let productsData = {
-  "pascoa-coelho": {
-    image: "images/velas/coelho.png",
-    description: "Pascoa",
-    price: 0,
+  "coelho-avulso": {
+    image: "images/velas/coelho.jpg",
+    description: "Coleção Páscoa",
+    price: 30.0,
+  },
+  "vela-coelho": {
+    image: "images/velas/coelho.jpg",
+    description: "Coleção Páscoa",
+    price: 50.0,
   },
 
+  "coelho-centro-mesa": {
+    image: "images/velas/coelho.jpg",
+    description: "Coleção Páscoa",
+    price: 120.0,
+  },
   "vela-vela": {
     image: "images/velas/Captura de tela 2024-03-22 215642.png",
     description: "vela",
@@ -55,15 +65,15 @@ let productsData = {
     description: "Roxa",
     price: 80.0,
   },
-  "espiral-geometricaa-roxa": {
+  "espiral-geometrica": {
     image: "images/velas/espiral_geometrico_95gr.png",
     description: "Espiral Geométrica",
-    price: 80.0,
+    price: 35.0,
   },
   "vela-buda": {
     image: "images/velas/buda.png",
     description: "Buda",
-    price: 14.5,
+    price: 15.0,
   },
   "trio-buda": {
     image: "images/velas/trio_buda.png",
@@ -120,7 +130,17 @@ let productsData = {
     description: "Intuição espiritual",
     price: 27.0,
   },
+  "signos-zodiaco": {
+    image: "images/velas/colecao-signos.jpg",
+    description: "Signos do Zodíaco",
+    price: 70.0,
+  },
 
+  "flor-lotus": {
+    image: "images/velas/flor-lotus.jpg",
+    description: "Flor de Lotus",
+    price: 35.0,
+  },
   // Adicione mais produtos conforme necessário
 };
 

@@ -85,6 +85,11 @@ let productsData = {
     description: "Roxa",
     price: 0,
   },
+  "linha-classica": {
+    image: "images/velas/linha_classica.jpg",
+    description: "Linha clássica",
+    price: 0,
+  },
 
   // Adicione mais produtos conforme necessário
 };

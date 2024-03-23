@@ -46,11 +46,6 @@ let productsData = {
     description: "Outono",
     price: 55.0,
   },
-  "fundo-mar": {
-    image: "images/velas/estrela.png",
-    description: "Fundo do Mar",
-    price: 0,
-  },
 
   "espiral-geometrica": {
     image: "images/velas/espiral_geometrico_95gr.png",
@@ -67,16 +62,7 @@ let productsData = {
     description: "Trio Buda",
     price: 40.0,
   },
-  "vela-intuicao": {
-    image: "images/velas/intuição.png",
-    description: "Intuição",
-    price: 19.9,
-  },
-  "vela-intuicao1": {
-    image: "images/velas/intuição1.png",
-    description: "Vela intuição",
-    price: 19.9,
-  },
+
   "vela-lavanda": {
     image: "images/velas/lavanda.png",
     description: "Roxa",
@@ -128,6 +114,77 @@ let productsData = {
     description: "Flor de Lotus",
     price: 35.0,
   },
+  "praia-copacabana": {
+    image: "images/velas/copacabana.jpg",
+    description: "Copacabana",
+    price: 160.0,
+  },
+  "praia-urca": {
+    image: "images/velas/urca.jpg",
+    description: "Urca",
+    price: 160.0,
+  },
+  "praia-lopes-mendes": {
+    image: "images/velas/lopes-mendes.jpg",
+    description: "Lopes Mendes",
+    price: 180.0,
+  },
+  "praia-prainha": {
+    image: "images/velas/prainha.jpg",
+    description: "Prainha",
+    price: 100.0,
+  },
+  "sagrado-feminino": {
+    image: "images/velas/sagrado-feminino.jpg",
+    description: "Sagrado feminino",
+    price: 50.0,
+  },
+  "mini-lata": {
+    image: "images/velas/mini-lata.jpg",
+    description: "Mini Vela Lata",
+    price: 0.0,
+  },
+  "mini-vela": {
+    image: "images/velas/mini-velas.jpg",
+    description: "Mini Vela",
+    price: 0.0,
+  },
+  "box-presente": {
+    image: "images/velas/rosas.jpg",
+    description: "Box Presente Rosas",
+    price: 25.0,
+  },
+  "buque-rosas": {
+    image: "images/velas/buque-rosas.jpg",
+    description: "Buquê de Rosas",
+    price: 20.0,
+  },
+  "vela-arco": {
+    image: "images/velas/arco.jpg",
+    description: "Arco",
+    price: 48.0,
+  },
+  "vela-arco-colorido": {
+    image: "images/velas/arco.jpg",
+    description: "Arco",
+    price: 55.0,
+  },
+  "vela-cubos": {
+    image: "images/velas/cubos.jpg",
+    description: "Cubos",
+    price: 28.0,
+  },
+  "vela-bubble": {
+    image: "images/velas/bubble.jpg",
+    description: "Bubble",
+    price: 28.0,
+  },
+  "vela-concha": {
+    image: "images/velas/concha.jpg",
+    description: "Concha",
+    price: 25.0,
+  },
+
   // Adicione mais produtos conforme necessário
 };
 

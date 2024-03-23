@@ -36,9 +36,9 @@ let productsData = {
     price: 0,
   },
   "vela-outono": {
-    image: "images/velas/vela.png",
+    image: "images/velas/velas-outono.jpg",
     description: "Outono",
-    price: 0,
+    price: 55.0,
   },
   "fundo-mar": {
     image: "images/velas/estrela.png",

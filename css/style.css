@@ -586,48 +586,6 @@ section {
   animation: fadeIn 0.2s linear backwards 0.6s;
 }
 
-.message {
-  background: url(../images/contato.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  padding: 3rem 2rem;
-}
-
-.message form {
-  margin: 2rem auto;
-  background: #fff;
-  text-align: center;
-  max-width: 40rem;
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-  padding: 2rem;
-}
-
-.message form h3 {
-  font-size: 3rem;
-  color: #222;
-}
-
-.message form .box {
-  width: 100%;
-  padding: 1.5rem 0;
-  margin: 0.7rem 0;
-  font-size: 1.6rem;
-  color: #666;
-  text-transform: none;
-  border-bottom: 0.2rem solid #222;
-}
-
-.message form .box:focus {
-  border-color: #6caf77;
-}
-
-.message form textarea {
-  height: 15rem;
-  resize: none;
-}
-
 .blogs .box-container {
   display: -ms-grid;
   display: grid;

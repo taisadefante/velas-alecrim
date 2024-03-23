@@ -98,10 +98,16 @@ let productsData = {
     description: "Buda com cristal",
     price: 27.0,
   },
+  "intuicao-espiritual-cristal": {
+    image: "images/velas/intuicao-espiritual.jpg",
+    description: "Intuição espiritual",
+    price: 35.0,
+  },
+
   "intuicao-espiritual": {
     image: "images/velas/intuicao-espiritual.jpg",
     description: "Intuição espiritual",
-    price: 27.0,
+    price: 20.0,
   },
   "signos-zodiaco": {
     image: "images/velas/colecao-signos.jpg",

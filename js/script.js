@@ -65,8 +65,8 @@ let productsData = {
 
   "vela-lavanda": {
     image: "images/velas/lavanda.png",
-    description: "Roxa",
-    price: 0,
+    description: "Lavanda",
+    price: 65.0,
   },
   "linha-classica": {
     image: "images/velas/linha_classica.jpg",

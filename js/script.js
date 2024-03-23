@@ -40,11 +40,7 @@ let productsData = {
     description: "Coleção Páscoa",
     price: 120.0,
   },
-  "vela-vela": {
-    image: "images/velas/Captura de tela 2024-03-22 215642.png",
-    description: "vela",
-    price: 0,
-  },
+
   "vela-outono": {
     image: "images/velas/velas-outono.jpg",
     description: "Outono",
@@ -55,16 +51,7 @@ let productsData = {
     description: "Fundo do Mar",
     price: 0,
   },
-  "vela-laranja": {
-    image: "images/velas/laranja.png",
-    description: "Laranja",
-    price: 0,
-  },
-  "vela-roxa": {
-    image: "images/velas/roxo.png",
-    description: "Roxa",
-    price: 80.0,
-  },
+
   "espiral-geometrica": {
     image: "images/velas/espiral_geometrico_95gr.png",
     description: "Espiral Geométrica",

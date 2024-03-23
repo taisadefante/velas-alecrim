@@ -88,7 +88,27 @@ let productsData = {
   "linha-classica": {
     image: "images/velas/linha_classica.jpg",
     description: "Linha clássica",
-    price: 0,
+    price: 65.0,
+  },
+  "velas-luminaria": {
+    image: "images/velas/vela_luminaria.jpg",
+    description: "Velas luminárias",
+    price: 140.0,
+  },
+  "velas-cristais": {
+    image: "images/velas/velas-cristais.jpg",
+    description: "Velas de cristais",
+    price: 100.0,
+  },
+  "velas-aromatica": {
+    image: "images/velas/velas-cristais.jpg",
+    description: "Vela aromatica de lavanda",
+    price: 65.0,
+  },
+  "velas-especiarias": {
+    image: "images/velas/velas-especiarias.jpg",
+    description: "Vela especiarias",
+    price: 65.0,
   },
 
   // Adicione mais produtos conforme necessário

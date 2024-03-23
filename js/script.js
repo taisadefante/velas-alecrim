@@ -146,7 +146,7 @@ function createOrderMessage() {
 
 function openWhatsApp() {
   let orderMessage = createOrderMessage();
-  let whatsappURL = `https://api.whatsapp.com/send?phone=&text=${encodeURIComponent(
+  let whatsappURL = `https://api.whatsapp.com/send?phone=5521964444810&text=${encodeURIComponent(
     orderMessage
   )}`;
   window.open(whatsappURL, "_blank");

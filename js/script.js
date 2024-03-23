@@ -110,6 +110,16 @@ let productsData = {
     description: "Vela especiarias",
     price: 65.0,
   },
+  "buda-cristal": {
+    image: "images/velas/buda_cristal.jpg",
+    description: "Buda com cristal",
+    price: 27.0,
+  },
+  "intuicao-espiritual": {
+    image: "images/velas/intuicao-espiritual.jpg",
+    description: "Intuição espiritual",
+    price: 27.0,
+  },
 
   // Adicione mais produtos conforme necessário
 };

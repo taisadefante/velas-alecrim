@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon" />
+
+    <title>Velas Alecrin</title>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- custom javascript link  -->
+    <script src="js/script.js" defer></script>
+  </head>
+
+  <!-- Adicione esta div no seu HTML onde você deseja exibir os detalhes do carrinho -->
+  <div id="cartModal" class="cartModal"></div>
+  <body>
+    <!-- header section starts  -->
+
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="/images/logo1.png" width="100px" height="100px" alt="" />
+      </a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">Sobre</a>
+        <a href="#shop">Velas</a>
+        <a href="#message">Contatos</a>
+        <a href="#blogs">Posts</a>
+      </nav>
+
+      <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <a href="#" id="cart" class="fas fa-shopping-cart">
+          <span class="badge" id="cartCount">0</span>
+        </a>
+      </div>
+
+      <form action="" class="search-form">
+        <input
+          type="search"
+          name=""
+          placeholder="Pesquisar..."
+          id="search-box"
+        />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div
+        class="slide active"
+        style="
+         background: url(images/home.webp) no-repeat;
+          background-size: cover;
+          background-position: center;
+        "
+      ></div>
+
+      <div
+        class="slide"
+        style="
+          background: url(images/home1.jpg) no-repeat;
+          background-size: cover;
+          background-position: center;
+        "
+      ></div>
+      <div
+      class="slide"
+      style="
+        background: url(images/home3.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+      "
+    ></div>
+      
+
+      <div id="next-slide" onclick="next()" class="fas fa-angle-right"></div>
+      <div id="prev-slide" onclick="prev()" class="fas fa-angle-left"></div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- category section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+      <div class="image">
+        <img src="images/home2.png" alt="" />
+      </div>
+
+      <div class="content">
+        <div class="box">
+          <h3></h3>
+          <p></p>
+          <a href="#shop" class="btn">COMPRE JÁ</a>
+        </div>
+       
+        </div>
+      </div>
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- shop section starts  -->
+
+    <section class="shop" id="shop">
+      <h1 class="heading">Velas</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="images/velas/coelho.png" alt="" />
+            <div class="icons"></div>
+          </div>
+          <div class="content">
+            <h3>Pascoa</h3>
+            <div class="price">R$ <span></span></div>
+            <a href="#" class="btn" id="pascoa-coelho">adicionar ao carrinho</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/velas/Captura de tela 2024-03-22 215642.png" alt="" />
+            <div class="icons"></div>
+          </div>
+          <div class="content">
+            <h3>Vela</h3>
+            <div class="price">R$ <span></span></div>
+            <a href="#" class="btn" id="vela-vela"
+              >adicionar ao carrinho</a
+            >
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/velas/vela.png" alt="" />
+            <div class="icons"></div>
+          </div>
+          <div class="content">
+            <h3>Outono</h3>
+            <div class="price">R$ <span></span></div>
+            <a href="#" class="btn" id="vela-outono"
+              >adicionar ao carrinho</a
+            >
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/velas/estrela.png" alt="" />
+            <div class="icons"></div>
+          </div>
+          <div class="content">
+            <h3>Fundo do Mar</h3>
+            <div class="price">R$ <span></span></div>
+            <a href="#" class="btn" id="fundo-mar"
+              >adicionar ao carrinho</a
+            >
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/velas/laranja.png" alt="" />
+            <div class="icons"></div>
+          </div>
+          <div class="content">
+            <h3>Laranja</h3>
+            <div class="price">R$ <span></span></div>
+            <a href="#" class="btn" id="vela-laranja"
+              >adicionar ao carrinho</a
+            >
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/velas/roxo.png" alt="" />
+            <div class="icons"></div>
+          </div>
+          <div class="content">
+            <h3>Roxo</h3>
+            <div class="price">R$ <span></span></div>
+            <a href="#" class="btn" id="vela-roxa">adicionar ao carrinho</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/velas/espiral_geometrico_95gr.png" alt="" />
+            <div class="icons"></div>
+          </div>
+          <div class="content">
+            <h3>Espiral Geométrica 95gr/h3>
+            <div class="price">R$ <span></span></div>
+            <a href="#" class="btn" id="espiral-geometrica">adicionar ao carrinho</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/velas/buda.png" alt="" />
+            <div class="icons"></div>
+          </div>
+          <div class="content">
+            <h3>Buda</h3>
+            <div class="price">R$14,50 <span></span></div>
+            <a href="#" class="btn" id="vela-buda">adicionar ao carrinho</a>
+          </div>
+        </div>
+        <div class="box">
+            <div class="image">
+              <img src="images/velas/trio_buda.png" alt="" />
+              <div class="icons"></div>
+            </div>
+            <div class="content">
+              <h3>Trio Buda</h3>
+              <div class="price">R$40,00 <span>R$43,50</span></div>
+              <a href="#" class="btn" id="trio-buda">adicionar ao carrinho</a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="images/velas/intuição.png" alt="" />
+              <div class="icons"></div>
+            </div>
+            <div class="content">
+              <h3>Intuição 120gr</h3>
+              <div class="price">R$19,90 Cada <span></span></div>
+              <a href="#" class="btn" id="vela-intuicao">adicionar ao carrinho</a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="images/velas/intuição1.png" alt="" />
+              <div class="icons"></div>
+            </div>
+            <div class="content">
+              <h3>Intuição 120gr</h3>
+              <div class="price">R$19,90 <span></span></div>
+              <a href="#" class="btn" id="vela-intuicao1">adicionar ao carrinho</a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="images/velas/lavanda.png" alt="" />
+              <div class="icons"></div>
+            </div>
+            <div class="content">
+              <h3>Lavanda 150gr</h3>
+              <div class="price">R$ <span></span></div>
+              <a href="#" class="btn" id="vela-lavanda">adicionar ao carrinho</a>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- shop section ends -->
+
+    <!-- banner section starts  -->
+    <!--SÓ -->
+    <section class="banner">
+      <div class="content">
+        <span>Oferta Especial</span>
+        <h3></h3>
+        <p>
+          Explore uma seleção imperdível de ofertas com descontos incríveis.
+          
+        </p>
+        <a
+          href="https://api.whatsapp.com/send/?phone=5521964448100&text&type=phone_number&app_absent=0"
+          class="btn"
+          >Contato</a
+        >
+      </div>
+    </section>
+
+   
+    <!-- shop section ends -->
+
+    <!-- message sections starts  -->
+
+    <section class="message" id="message">
+      <form action="">
+        <h3>Entre em contato</h3>
+        <input type="text" placeholder="Nome" class="box" />
+        <input type="email" placeholder="Email" class="box" />
+        <input type="number" placeholder="Telefone" class="box" />
+        <textarea
+          name=""
+          placeholder="Mensagem"
+          class="box"
+          id=""
+          cols="30"
+          rows="10"
+        ></textarea>
+        <input type="submit" value="Enviar Mensagem" class="btn" />
+      </form>
+    </section>
+
+    <!-- message section ends -->
+
+    <!-- blogs section starts  -->
+
+    <section class="blogs" id="blogs">
+      <h1 class="heading">Nossos Posts</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="images/velas/estrela.png" width="20px" alt="" />
+          </div>
+          <div class="content">
+            <div class="date">
+              <h3>04</h3>
+              <span>dez</span>
+            </div>
+           
+            <a href="#" class="title">Como são feitas as nossas velas</a>
+            <p>
+                Nossa missão é transformar seus momento de relaxamento em uma experiência sensorial única através de nossas velas aromáticas.🕯💫
+
+            </p>
+            <a
+              href="https://www.instagram.com/juliadarisconfeitaria/"
+              class="btn"
+              >Ver post</a
+            >
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/dicas.png" alt="" />
+          </div>
+          <div class="content">
+            <div class="date">
+              <h3>03</h3>
+              <span>dez</span>
+            </div>
+           
+            <a href="#" class="title">
+             Ambiente aconchegante com velas aromáticas
+            </a>
+            <p>As velas aromáticas podem ser usadas de várias maneiras para criar um ambiente agradável e desfrutar de seus benefícios terapêuticos.</p>
+            <a
+              href="https://www.instagram.com/p/C16uwAOA787/"
+              class="btn" target="_blank"
+              >Ver post</a
+            >
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/usar.png" alt="" />
+          </div>
+          <div class="content">
+            <div class="date">
+              <h3>16</h3>
+              <span>nov</span>
+            </div>
+           
+            <a href="#" class="title">Por que usar velas aromáticas?</a>
+            <p>O significado das velas aromáticas pode variar de pessoa para pessoa, pois cada um pode ter suas próprias associações e experiências pessoais com os aromas.
+                O mais importante é que as velas aromáticas tragam alegria, conforto e bem-estar para quem as utiliza.
+                </p>
+            <a
+              href="https://www.instagram.com/p/C14U0maAMsn/"
+              class="btn" target="_blank"
+              >Ver post</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- blogs section ends -->
+
+    <!-- services section starts -->
+
+    <section class="service">
+      <div class="box">
+        <img src="images/instagram.png" alt="" />
+        <h3>Estamos no Instagram</h3>
+        <p>
+          Acompanhe-nos no iFood e esteja sempre conectado às nossas novidades e
+          deliciosas opções!
+        </p>
+      </div>
+
+      <div class="box">
+        <img src="images/icon-2.png" alt="" />
+        <h3>Pagamento Seguro</h3>
+        <p>
+          Garantimos pagamentos 100% seguros, priorizando a sua tranquilidade e
+          segurança!
+        </p>
+      </div>
+
+      <div class="box">
+        <img src="images/icon-3.png" alt="" />
+        <h3>24hrs Suporte</h3>
+        <p>
+          Estamos disponíveis 24 horas por dia, 7 dias por semana, para ajudar
+          você a qualquer momento!
+        </p>
+      </div>
+    </section>
+
+    <!-- services section ends -->
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>Links Rápidos</h3>
+          <a class="link" href="#home">
+            <i class="fas fa-angle-right"></i> Home</a
+          >
+          <a class="link" href="#about">
+            <i class="fas fa-angle-right"></i> Sobre</a
+          >
+          <a class="link" href="#shop">
+            <i class="fas fa-angle-right"></i> Velas</a
+          >
+          
+          <a class="link" href="#message">
+            <i class="fas fa-angle-right"></i> Contatos</a
+          >
+          <a class="link" href="#blogs">
+            <i class="fas fa-angle-right"></i> Posts</a
+          >
+        </div>
+
+        <div class="box">
+          <h3>Links Extras</h3>
+          <a class="link" href="#">
+            <i class="fas fa-angle-right"></i> meu pedido
+          </a>
+          <a class="link" href="#">
+            <i class="fas fa-angle-right"></i> política privada</a
+          >
+          <a class="link" href="#">
+            <i class="fas fa-angle-right"></i> termos de uso
+          </a>
+        </div>
+
+        <div class="box">
+          <h3>Informações De Contato</h3>
+          <a class="link" href="#">
+            <i class="fas fa-phone"></i> +55 (21) 96444-8100
+          </a>
+          <a class="link" href="#">
+            <i class="fas fa-envelope"></i> 
+          </a>
+          <a class="link" href="#">
+            <i class="fas fa-map"></i> Rio de Janeiro - RJ</a
+          >
+          <div class="share">
+            
+            <a
+              href="https://www.instagram.com/velasalecrim.rj/"
+              class="fab fa-instagram"
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="credit">
+        criado por
+        <span
+          ><a href="https://www.linkedin.com/in/tais-defante/"
+            >©Tais Defante</a
+          ></span
+        >
+        | Todos os direitos reservados!
+      </div>
+    </section>
+
+    <!-- footer section ends -->
+    <script
+      src="https://kit.fontawesome.com/c654e573f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

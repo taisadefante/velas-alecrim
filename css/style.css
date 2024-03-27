@@ -476,6 +476,15 @@ section {
   text-decoration: line-through;
 }
 
+.videos .video video {
+  padding: 10px;
+  width: 45%;
+  height: 40%;
+  border-radius: 25px;
+  margin: 25px;
+  border: 5px solid #6caf77;
+}
+
 .banner {
   background: url(../images/banner.webp) no-repeat;
   background-size: cover;

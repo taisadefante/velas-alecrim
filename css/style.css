@@ -478,10 +478,10 @@ section {
 
 .videos .video video {
   padding: 5px;
-  width: 40%;
+  width: 35%;
   height: 40%;
-  border-radius: 25px;
-  margin: 20px ;
+  border-radius: 20px;
+  margin: 15px ;
   border: 8px solid #6caf77;
 }
 

@@ -477,12 +477,12 @@ section {
 }
 
 .videos .video video {
-  padding: 10px;
+  padding: 5px;
   width: 40%;
   height: 40%;
   border-radius: 25px;
-  margin: 25px;
-  border: 5px solid #6caf77;
+  margin: 20px ;
+  border: 8px solid #6caf77;
 }
 
 .banner {

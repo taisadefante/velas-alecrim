@@ -478,7 +478,7 @@ section {
 
 /*****VIDEOS ****/
 
-.video{
+.video {
   width: 100%;
 }
 
@@ -825,6 +825,13 @@ video {
   section {
     padding: 3rem 2rem;
   }
+  .video {
+    text-align: center;
+  }
+  video {
+    width: 80%;
+    height: 40%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -853,14 +860,24 @@ video {
     margin: 3rem 1rem;
   }
 
+  .video {
+    text-align: center;
+  }
 
+  video {
+    width: 80%;
+    height: 40%;
+    border-radius: 20px;
+    margin: 5px;
+    border: 8px solid #6caf77;
+  }
+}
 
 @media (max-width: 450px) {
   html {
     font-size: 50%;
   }
 
-  
   .home .slide .content h3 {
     font-size: 3rem;
   }
@@ -870,5 +887,16 @@ video {
   .banner .content {
     margin: 3rem 0;
   }
+
+  .video {
+    text-align: center;
+  }
+
+  video {
+    width: 80%;
+    height: 40%;
+    border-radius: 20px;
+    margin: 5px;
+    border: 8px solid #6caf77;
+  }
 }
-/*# sourceMappingURL=style.css.map */

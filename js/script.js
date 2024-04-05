@@ -24,6 +24,11 @@ function toggleCartModal() {
 }
 
 let productsData = {
+  "vela-massagem": {
+    image: "images/velas/massagem.jpeg",
+    description: "Velas Massagem",
+    price: 50.0,
+  },
   "coelho-avulso": {
     image: "images/velas/coelho.jpg",
     description: "Coleção Páscoa",

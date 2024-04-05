@@ -476,12 +476,17 @@ section {
   text-decoration: line-through;
 }
 
-.videos .video video {
-  padding: 5px;
-  width: 35%;
+/*****VIDEOS ****/
+
+.video{
+  width: 100%;
+}
+
+video {
+  width: 30%;
   height: 40%;
   border-radius: 20px;
-  margin: 15px ;
+  margin: 5px;
   border: 8px solid #6caf77;
 }
 

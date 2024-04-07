@@ -13,6 +13,11 @@
   transition: all 0.2s linear;
 }
 
+:root {
+  --primary: #6caf77;
+  --secondary: ;
+}
+
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -29,7 +34,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #6caf77;
+  background: var(--primary);
 }
 
 section {
@@ -38,7 +43,7 @@ section {
 
 .heading {
   text-align: center;
-  color: #222;
+  color: var(--primary);
   margin-bottom: 3rem;
   font-size: 4rem;
 }
@@ -47,7 +52,7 @@ section {
   display: inline-block;
   margin-top: 1rem;
   padding: 1rem 3rem;
-  background: #6caf77;
+  background: var(--primary);
   color: #fff;
   font-size: 1.7rem;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
@@ -176,7 +181,7 @@ section {
 
 .header .icons div:hover,
 .header .icons a:hover {
-  background: #6caf77;
+  background: var(--primary);
   color: #fff;
 }
 
@@ -227,7 +232,7 @@ section {
 }
 
 .header .search-form label:hover {
-  color: #6caf77;
+  color: var(--primary);
 }
 
 .home {
@@ -298,7 +303,7 @@ section {
 
 .home #next-slide:hover,
 .home #prev-slide:hover {
-  background: #6caf77;
+  background: var(--primary);
   color: #fff;
 }
 
@@ -379,7 +384,7 @@ section {
 }
 
 .about .content .icons-container .icons i {
-  color: #6caf77;
+  color: var(--primary);
   margin-bottom: 1rem;
   font-size: 5rem;
 }
@@ -388,6 +393,20 @@ section {
   font-size: 1.4rem;
   color: #666;
 }
+
+/*****SOBRE ****/
+.sobre {
+  width: 100%;
+}
+
+.sobre img {
+  width: 100%;
+  height: 70%;
+  border-radius: 20px;
+  border: 4px solid var(--primary);
+}
+
+/*****PRODUTOS ****/
 
 .shop {
   background: #eee;
@@ -451,7 +470,7 @@ section {
 
 .shop .box-container .box .image .icons a:hover {
   color: #fff;
-  background: #6caf77;
+  background: var(--primary);
 }
 
 .shop .box-container .box .content {
@@ -468,7 +487,7 @@ section {
 .shop .box-container .box .content .price {
   font-size: 2rem;
   font-weight: bolder;
-  color: #6caf77;
+  color: var(--primary);
 }
 
 .shop .box-container .box .content .price span {
@@ -488,7 +507,11 @@ video {
   height: 40%;
   border-radius: 20px;
   margin: 5px;
-  border: 8px solid #6caf77;
+  border: 4px solid var(--primary);
+}
+
+video:hover {
+  border: 6px solid var(--primary);
 }
 
 .banner {
@@ -496,6 +519,8 @@ video {
   background-size: cover;
   background-position: center;
 }
+
+/***** ****/
 
 .banner .content {
   max-width: 40rem;
@@ -509,7 +534,7 @@ video {
 
 .banner .content span {
   font-size: 2rem;
-  color: #6caf77;
+  color: var(--primary);
 }
 
 .banner .content h3 {
@@ -647,7 +672,7 @@ video {
   width: 8rem;
   border: 0.5rem solid #fff;
   border-radius: 50%;
-  background: #6caf77;
+  background: var(--primary);
   text-align: center;
   padding-top: 1rem;
 }
@@ -672,11 +697,11 @@ video {
 
 .blogs .box-container .box .content .user i {
   padding-right: 0.5rem;
-  color: #6caf77;
+  color: var(--primary);
 }
 
 .blogs .box-container .box .content .user:hover {
-  color: #6caf77;
+  color: var(--primary);
 }
 
 .blogs .box-container .box .content .title {
@@ -685,7 +710,7 @@ video {
 }
 
 .blogs .box-container .box .content .title:hover {
-  color: #6caf77;
+  color: var(--primary);
 }
 
 .blogs .box-container .box .content p {
@@ -701,7 +726,7 @@ video {
   -ms-grid-columns: (minmax(31rem, 1fr)) [auto-fit];
   grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
   gap: 2rem;
-  background: #6caf77;
+  background: var(--primary);
 }
 
 .service .box {
@@ -748,11 +773,11 @@ video {
 
 .footer .box-container .box .link i {
   padding-right: 0.5rem;
-  color: #6caf77;
+  color: var(--primary);
 }
 
 .footer .box-container .box .link:hover {
-  color: #6caf77;
+  color: var(--primary);
 }
 
 .footer .box-container .box .link:hover i {
@@ -777,7 +802,7 @@ video {
 
 .footer .box-container .box .share a:hover {
   color: #fff;
-  background: #6caf77;
+  background: var(--primary);
 }
 
 .footer .box-container .box p {
@@ -807,7 +832,7 @@ video {
 }
 
 .footer .credit span a {
-  color: #6caf77;
+  color: var(--primary);
 }
 
 .footer .credit span a:hover {
@@ -870,7 +895,7 @@ video {
     height: 40%;
     border-radius: 20px;
     margin: 5px;
-    border: 8px solid #6caf77;
+    border: 8px solid var(--primary);
   }
 }
 
@@ -898,6 +923,6 @@ video {
     height: 40%;
     border-radius: 20px;
     margin: 5px;
-    border: 8px solid #6caf77;
+    border: 8px solid var(--primary);
   }
 }

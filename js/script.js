@@ -29,22 +29,6 @@ let productsData = {
     description: "Velas Massagem",
     price: 50.0,
   },
-  "coelho-avulso": {
-    image: "images/velas/coelho.jpg",
-    description: "Coleção Páscoa",
-    price: 30.0,
-  },
-  "vela-coelho": {
-    image: "images/velas/coelho.jpg",
-    description: "Coleção Páscoa",
-    price: 50.0,
-  },
-
-  "coelho-centro-mesa": {
-    image: "images/velas/coelho.jpg",
-    description: "Coleção Páscoa",
-    price: 120.0,
-  },
 
   "vela-outono": {
     image: "images/velas/velas-outono.jpg",

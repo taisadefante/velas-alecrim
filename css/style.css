@@ -235,9 +235,10 @@ section {
   color: var(--primary);
 }
 
+/******home *********/
 .home {
   position: relative;
-  padding: 0;
+  padding: 10px;
 }
 
 .home .slide {
@@ -253,6 +254,7 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
 }
 
 .home .slide .content {
@@ -423,9 +425,10 @@ section {
 .shop .box-container .box {
   text-align: center;
   background: #fff;
-  border: 0.2rem solid #222;
+  border: 0.2rem solid var(--primary);
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
 }
 
 .shop .box-container .box:hover .image img {
@@ -503,7 +506,7 @@ section {
 }
 
 video {
-  width: 30%;
+  width: 32%;
   height: 40%;
   border-radius: 20px;
   margin: 5px;
@@ -514,13 +517,12 @@ video:hover {
   border: 6px solid var(--primary);
 }
 
+/***** ****/
 .banner {
   background: url(../images/banner.webp) no-repeat;
   background-size: cover;
   background-position: center;
 }
-
-/***** ****/
 
 .banner .content {
   max-width: 40rem;
@@ -626,6 +628,7 @@ video:hover {
   animation: fadeIn 0.2s linear backwards 0.6s;
 }
 
+/******post******/
 .blogs .box-container {
   display: -ms-grid;
   display: grid;
@@ -720,6 +723,8 @@ video:hover {
   font-size: 1.4rem;
 }
 
+/****** *****/
+
 .service {
   display: -ms-grid;
   display: grid;
@@ -731,24 +736,26 @@ video:hover {
 
 .service .box {
   text-align: center;
-  padding: 2rem;
+  padding: 5px;
 }
 
 .service .box img {
-  height: 10rem;
+  height: 7rem;
 }
 
 .service .box h3 {
   padding: 1rem 0;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #fff;
 }
 
 .service .box p {
   line-height: 2;
-  font-size: 1.4rem;
+  font-size: 1rem;
   color: #fff;
 }
+
+/******** footer*******/
 
 .footer .box-container {
   display: -ms-grid;
@@ -858,6 +865,15 @@ video:hover {
     width: 80%;
     height: 40%;
   }
+
+  .home .slide {
+    padding: 1rem;
+  }
+
+  .home .slide.active {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -897,6 +913,15 @@ video:hover {
     margin: 5px;
     border: 8px solid var(--primary);
   }
+
+  .home .slide {
+    padding: 1rem;
+  }
+
+  .home .slide.active {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 @media (max-width: 450px) {
@@ -924,5 +949,13 @@ video:hover {
     border-radius: 20px;
     margin: 5px;
     border: 8px solid var(--primary);
+  }
+
+  .home .slide {
+    padding: 1rem;
+  }
+
+  .home .slide.active {
+    height: 80%;
   }
 }

@@ -24,6 +24,53 @@ function toggleCartModal() {
 }
 
 let productsData = {
+  "flor-permanente": {
+    image: "images/velas/mae.jpeg",
+    description: "Flores permaes no pote",
+    price: 70.0,
+  },
+  "flor-permanente1": {
+    image: "images/velas/mae1.jpeg",
+    description: "Flores permaes no pote",
+    price: 70.0,
+  },
+
+  "flor-permanente2": {
+    image: "images/velas/mae2.jpeg",
+    description: "Flores permaes no pote",
+    price: 70.0,
+  },
+
+  "flor-permanente3": {
+    image: "images/velas/mae3.jpeg",
+    description: "Flores permaes no pote",
+    price: 70.0,
+  },
+
+  "vela-coracao": {
+    image: "images/velas/mae4.jpeg",
+    description: "Vela de coração",
+    price: 70.0,
+  },
+
+  "buque-caixa": {
+    image: "images/velas/mae_buque.jpeg",
+    description: "Buquê ou caixa de flores permanentes",
+    price: 25.0,
+  },
+
+  "buque-flores": {
+    image: "images/velas/mae_buque1.jpeg",
+    description: "Buquê de flores permanentes",
+    price: 80.0,
+  },
+
+  "buque-color": {
+    image: "images/velas/mae_buque2.jpeg",
+    description: "Buquê color de flores permanentes",
+    price: 95.0,
+  },
+
   "vela-massagem": {
     image: "images/velas/massagem.jpeg",
     description: "Velas Massagem",

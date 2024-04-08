@@ -26,24 +26,24 @@ function toggleCartModal() {
 let productsData = {
   "flor-permanente": {
     image: "images/velas/mae.jpeg",
-    description: "Flores permaes no pote",
+    description: "Flores permanentes  no pote",
     price: 70.0,
   },
   "flor-permanente1": {
     image: "images/velas/mae1.jpeg",
-    description: "Flores permaes no pote",
+    description: "Flores permanentes  no pote",
     price: 70.0,
   },
 
   "flor-permanente2": {
     image: "images/velas/mae2.jpeg",
-    description: "Flores permaes no pote",
+    description: "Flores permanentes  no pote",
     price: 70.0,
   },
 
   "flor-permanente3": {
     image: "images/velas/mae3.jpeg",
-    description: "Flores permaes no pote",
+    description: "Flores permanentes  no pote",
     price: 70.0,
   },
 
